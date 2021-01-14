@@ -11,9 +11,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"
-        integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -29,48 +27,60 @@
                 <th scope="col">Return due</th>
                 <th></th>
                 <th></th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th scope="row"><span class="fi-chevron-top"></span></th>
+                <th scope="row"><i class="fa fa-chevron-up"></i></th>
                 <td>Valtech</td>
                 <td>Federal</td>
                 <td>2021/4/15</td>
                 <td>2021/10/15</td>
                 <td><button type="button" class="btn btn-success">Save</button></td>
+                <td><button type="button" class="btn btn-secondary">Edit</button></td>
                 <td><button type="button" class="btn btn-danger">Delete</button></td>
             </tr>
             <tr>
-                <th scope="row"><span class="fi-chevron-top"></span></th>
-                <td><input type="text"></td>
+                <th scope="row"><i class="fa fa-chevron-up"></i></span></th>
                 <td><input type="text"></td>
                 <td>
                     <div class="input-group mb-3">
+                        <input type="text" class="form-control">
                         <div class="input-group-prepend">
-                            <div class="input-group-text">
-                                <input type="checkbox">
+                            <div>
+                                <button type="button" class="btn btn-secondary">+</button>
                             </div>
                         </div>
-                        <input type="date" class="form-control">
                     </div>
                 </td>
                 <td>
                     <div class="input-group mb-3">
+                        <input type="date" class="form-control">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
                                 <input type="checkbox">
                             </div>
                         </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="input-group mb-3">
                         <input type="date" class="form-control">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="checkbox">
+                            </div>
+                        </div>
                     </div>
                 </td>
                 <td><button type="button" class="btn btn-success">Save</button></td>
+                <td><button type="button" class="btn btn-secondary">Edit</button></td>
                 <td><button type="button" class="btn btn-danger">Delete</button></td>
             </tr>
         </tbody>
     </table>
-    <button type="button" class="btn btn-primary mt-4">New Client</button>
+    <button type="button" class="btn btn-primary mt-3">New Client</button>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
@@ -81,6 +91,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
+    <script src="app.js"></script>
 </body>
 
 </html>
