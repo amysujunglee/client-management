@@ -8,25 +8,76 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css"
+        integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <table>
-        <tr>
-            <th>Client</th>
-            <th>Extension Date</th>
-            <th>option 1</th>
-            <th>option 1</th>
-        </tr>
-        <tr>
-            <td>Valtech</td>
-            <td><input type="date"></td>
-        </tr>
-
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">Client Name</th>
+                <th scope="col">Jurisdictions</th>
+                <th scope="col">Extension due</th>
+                <th scope="col">Return due</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row"><span class="fi-chevron-top"></span></th>
+                <td>Valtech</td>
+                <td>Federal</td>
+                <td>2021/4/15</td>
+                <td>2021/10/15</td>
+                <td><button type="button" class="btn btn-success">Save</button></td>
+                <td><button type="button" class="btn btn-danger">Delete</button></td>
+            </tr>
+            <tr>
+                <th scope="row"><span class="fi-chevron-top"></span></th>
+                <td><input type="text"></td>
+                <td><input type="text"></td>
+                <td>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="checkbox">
+                            </div>
+                        </div>
+                        <input type="date" class="form-control">
+                    </div>
+                </td>
+                <td>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="checkbox">
+                            </div>
+                        </div>
+                        <input type="date" class="form-control">
+                    </div>
+                </td>
+                <td><button type="button" class="btn btn-success">Save</button></td>
+                <td><button type="button" class="btn btn-danger">Delete</button></td>
+            </tr>
+        </tbody>
     </table>
+    <button type="button" class="btn btn-primary mt-4">New Client</button>
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
