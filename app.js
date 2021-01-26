@@ -16,7 +16,7 @@ function newClient() {
             </div>
         </td>
         <td>
-            <div class="input-group mb-3">
+            <div class="ext-date input-group mb-3">
                 <input type="date" class="form-control">
                 <div class="input-group-prepend">
                     <div class="input-group-text">
@@ -50,7 +50,8 @@ function saveClient() {
     saveBtns.forEach(btn => {
         btn.addEventListener('click', e => {
             let clientName = e.target.parentNode.parentNode.querySelector('.client-name input').value;
-            console.log(clientName);
+            let extDate = e.target.parentNode.parentNode.querySelector('.ext-date input').value;
+            console.log(extDate);
 
             clientContainer.innerHTML += `<tr>
             <th scope="row"><span class="fa fa-chevron-up"></span></span></th>
