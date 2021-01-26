@@ -30,7 +30,7 @@
                 <th></th>
             </tr>
         </thead>
-        <tbody>
+        <tbody class="client-container">
             <tr>
                 <th scope="row"><span class="fa fa-chevron-up"></span></th>
                 <td>Valtech</td>
@@ -41,9 +41,9 @@
                 <td><button type="button" class="btn btn-secondary">Edit</button></td>
                 <td><button type="button" class="btn btn-danger">Delete</button></td>
             </tr>
-            <tr>
+            <!-- <tr>
                 <th scope="row"><span class="fa fa-chevron-up"></span></span></th>
-                <td><input type="text"></td>
+                <td class="client-name"><input type="text"></td>
                 <td>
                     <div class="input-group mb-3">
                         <input type="text" class="form-control">
@@ -77,10 +77,10 @@
                 <td><button type="button" class="btn btn-success">Save</button></td>
                 <td><button type="button" class="btn btn-secondary">Edit</button></td>
                 <td><button type="button" class="btn btn-danger">Delete</button></td>
-            </tr>
+            </tr> -->
         </tbody>
     </table>
-    <button type="button" class="btn btn-primary mt-3">New Client</button>
+    <button type="button" class="btn btn-primary mt-3" onclick="newClient()">New Client</button>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
